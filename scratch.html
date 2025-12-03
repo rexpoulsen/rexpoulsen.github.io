@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Golf — Rex Poulsen</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      body { background-color: #f0f8ff; }
+      .scratch-hero {
+        background: url('golf1.jpg') center/cover no-repeat;
+        padding: 80px 0;
+        color: rgb(36, 124, 201);
+        text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-light bg-white fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Back to Home</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="scratch-hero mt-5 pt-5 text-center">
+      <h1>My Passion: Golf</h1>
+      <p class="lead">"The Greatest Game Ever Played."</p>
+    </header>
+
+    <main class="container my-4 golf-bg">
+
+      <!-- DIV 1 -->
+      <div class="card-block" id="intro">
+        <h2>Why I Love Golf</h2>
+        <p>Golf has taught me discipline, focus, and emotional control. The pursuit of improvement keeps me motivated every day. It is a chance to disconnect and find yourself in nature.</p>
+      </div>
+
+      <!-- DIV 2 -->
+      <div class="card-block">
+        <h3>Practice Plan</h3>
+
+        <!-- Ordered list w/ unordered list nested -->
+        <ol>
+          <li>Full Swing
+            <ul>
+              <li>Video analysis</li>
+              <li>Trackman launch monitor work</li>
+            </ul>
+          </li>
+
+          <li>Short Game
+            <ul>
+              <li>Chipping ladder drills</li>
+              <li>Putting circle drill</li>
+            </ul>
+          </li>
+
+          <li>Course Strategy
+            <ul>
+              <li>Shot selection planning</li>
+              <li>Risk management</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+
+      
+        <!-- ANCHOR LINK -->
+        <p><a href="#stats-anchor">Jump to stats ↓</a></p>
+
+        <!-- TABLEAU -->
+        <div class="tableau-container mb-3">
+          <iframe
+            src="https://public.tableau.com/views/GolfDashboard_15977034310110/Dashboard1?:embed=y&:showVizHome=no"
+            width="100%" height="600" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <!-- ANCHOR TARGET -->
+      <div class="card-block" id="stats-anchor">
+        <h3>My Stats</h3>
+        <p>USGA 0.0 • Tournament Avg: 71 • Driver Carry: 285</p>
+      </div>
+
+      <!-- PHOTOS -->
+      <div class="card-block">
+        <h3>Gallery</h3>
+        <div class="row">
+          <div class="col-md-4"><img src="https://imageio.forbes.com/images-forbes/media/2009/03/26/golf_great_shots_benhogan_1ironshot.jpg?height=400&width=711&fit=bounds" class="img-fluid rounded"></div>
+          <div class="col-md-4"><img src="https://www.pebblebeach.com/content/uploads/20160811-cam-timeout.jpg" class="img-fluid rounded"></div>
+          <div class="col-md-4"><img src="https://media.cnn.com/api/v1/images/stellar/prod/140627172713-seve-tease.jpg?q=w_3004,h_3992,x_0,y_0,c_fill" class="img-fluid rounded"></div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="bg-white py-4 border-top text-center">
+      © Rex Poulsen
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
